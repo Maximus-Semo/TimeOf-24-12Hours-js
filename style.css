@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+.h1ToTime{
+    text-align: center;
+    color: #BBB;
+
+}
+.timeIn24Hours,.timeIn12Hours{
+    width: 450px;
+    height: 180px;
+    margin: auto;
+    margin-bottom:150px ;
+    position: relative;
+    top: 100px;
+    background-color: rgb(132, 127, 138);
+    border-radius: 5px;
+    background-color: #2EE59D;
+    transition: all 0.7s;
+
+}
+
+.timeIn24Hours:hover,.timeIn12Hours:hover {
+ transition: all 0.5s;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: rgb(78, 71, 71);
+  transform: translateY(-7px);
+}
+
+.timeIn24Hours div,.timeIn12Hours div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.date12{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    
+}
+.hours12{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
